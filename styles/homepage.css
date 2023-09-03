@@ -1,0 +1,121 @@
+body {
+background-image: url('image/oppen_bg.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+h1 {
+font-family:"Bebas Neue";
+font-size:400%;
+text-align:center;
+background-color:rgba(0,0,0,0.4);
+padding:30px;
+text-shadow:4px 4px white;
+}
+
+#plife,#infohead {
+font-size:200%;
+background-color:powderblue;
+border:1px solid black;
+border-radius:50px;
+width:1000px;
+}
+
+#plife {
+text-align:left;
+padding-left:50px;
+}
+
+#gallery {
+background-image: url('image/old_oppen.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+border:0px;
+width:500px;
+text-align:center;
+animation: oppen 10s infinite
+}
+
+@keyframes oppen {
+text-align: center;
+0%{background-image: url("image/old_oppen.jpg");}
+25%{background-image: url("image/oppen_smoke.jpg");}
+50%{background-image: url("image/oppen_cigarratte.jpg");}
+75%{background-image: url("image/oppen_teaching.jpg");}
+100%{background-image: url("image/Oppenheimer_(cropped).jpg");}
+}
+
+
+#pic {
+width:300px;
+border:10px solid white;
+border-radius:10px;
+}
+
+#pinfo {
+border-spacing:25px;
+border:0px;
+background-color:transparent;
+}
+
+h2 {
+background-color:rgba(0,0,0,0.4);
+text-align:center;
+font-size:50px;
+font-family:"Bebas Neue";
+text-shadow:4px 4px white;
+}
+
+table {
+width:1300px;
+}
+
+th,td {
+background-color:powderblue;
+border:4px solid black;
+border-radius:50px;
+}
+
+th {
+font-size:200%;
+text-align:center;
+}
+
+td {
+font-size:150%;
+text-align:left;
+padding:50px;
+}
+
+.oppen_data {
+border:0px;
+background-color:transparent;
+}
+
+.oppen_pic {
+border:10px solid white;
+border-radius:10px;
+}
+
+.pic_name {
+text-align:center;
+font-size:120%;
+padding:0px;
+}
+
+.zoom_hover {
+width:210px;
+height:30px;
+transition:transform .2s;
+}
+
+.zoom_hover:hover {
+color:red;
+transform:scale(1.1);
+}
+
+a {
+text-decoration:none;
+}
+

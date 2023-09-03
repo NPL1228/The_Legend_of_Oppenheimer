@@ -1,0 +1,79 @@
+body {
+background-image: url('image/oppen_bg.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+h1 {
+font-family:"Bebas Neue";
+font-size:400%;
+text-align:center;
+background-color:rgba(0,0,0,0.4);
+padding:30px;
+text-shadow:4px 4px white;
+}
+
+div {
+border:1px solid black;
+border-radius:50px;
+background-color:powderblue;
+padding:10px;
+margin:10px;
+}
+
+h2 {
+text-align:center;
+font-size:200%;
+}
+
+ul {
+font-size:150%;
+margin:10px;
+}
+
+#button {
+background-color:transparent;
+border:0;
+}
+
+#previous,#home,#next {
+font-size:150%;
+color:darkkhaki;
+text-align:center;
+display:inline-block;
+background-color:darkcyan;
+padding:10px;
+border:0;
+border-radius:20px;
+width:200px;
+height:30px;
+transition:transform .2s;
+}
+
+#previous:hover,#home:hover,#next:hover {
+color:white;
+transform:scale(1.1);
+}
+
+#home {
+margin-left:300px;
+}
+
+#next {
+float:right;
+}
+
+a {
+text-decoration:none;
+}
+
+img {
+float:right;
+width:200px;
+transition:transform .2s;
+}
+
+img:hover {
+transform:scale(1.4);
+}
